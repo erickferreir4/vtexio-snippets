@@ -1,0 +1,10 @@
+{
+	"flexr": {
+		"prefix": "flexr",
+		"body": [
+			"\"flex-layout.row#$1\": {",
+			"\t\"children\": [\n\t\t//blocks...\n\t]",
+			"}"
+		]
+	}
+}
