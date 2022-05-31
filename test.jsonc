@@ -1,0 +1,44 @@
+{
+	"flex-layout.col#name": {
+		"children": [
+			"flex-layout.row#name"
+		],
+		"props":{
+			"blockClass": "name",
+			"borderColor": "", // border color
+			"borderWidth": "", // number
+			"border": [], // top, right, bottom, left or all
+			"horizontalAlign": "", // left|right|center
+			"marginRight": "", // number
+			"marginLeft": "", // number
+			"paddingRight": "", // number
+			"paddingLeft": "", // number
+			"preventVerticalStretch": "", // Boolean
+			"rowGap": "", // number
+			"verticalAlign": "", // top|middle|bottom
+			"width": "" // percentage or 'grow'
+		}
+	},
+	"flex-layout.row#name": {
+		"children": [
+			//blocks...
+		],
+		"props":{
+			"blockClass": "name",
+			"borderColor": "", // border color
+			"borderWidth": "", // number
+			"border": [], // top, right, bottom, left or all
+			"colGap": "", // number
+			"colSizing": "", // equal or auto
+			"fullWidth": "", // Boolean
+			"horizontalAlign": "", // left, right or center
+			"marginBottom": "", // number
+			"marginTop": "", // number
+			"paddingTop": "", // number
+			"paddingBottom": "", // number
+			"preserveLayoutOnMobile": "", // Boolean
+			"preventVerticalStretch": "", // Boolean
+			"rowGap": "" // number
+		}
+	}
+}

@@ -1,18 +1,17 @@
 {
-  "name": "friendly-snippets-test",
-  "engines": {
-    "vscode": "^1.11.0"
-  },
-  "contributes": {
-    "snippets": [
-      {
-        "language": [
-			"json",
-			"jsonc"
-		],
-        "path": "./snippets/vtexio.json",
-		"description": "flex layout row"
-      }
-    ]
-  }
+	"name": "friendly-snippets-test",
+	"engines": {
+		"vscode": "^1.11.0"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": [
+					"json",
+					"jsonc"
+				],
+				"path": "./snippets/flex-layout.json"
+			}
+		]
+	}
 }
