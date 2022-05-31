@@ -1,6 +1,6 @@
 {
 	"Flex Layout column": {
-		"prefix": "vfc",
+		"prefix": "flexc",
 		"body": [
 			"\"flex-layout.col#${1:name}\": {",
 			"\t\"children\": [\n\t\t//blocks...\n\t],",
@@ -26,7 +26,7 @@
 	},
 
 	"Flex Layout row": {
-		"prefix": "vfr",
+		"prefix": "flexr",
 		"body": [
 			"\"flex-layout.row#${1:name}\": {",
 			"\t\"children\": [\n\t\t//blocks...\n\t],",
@@ -54,7 +54,7 @@
 	},
 
 	"Flex Col into Flex Row": {
-		"prefix": "vfrc",
+		"prefix": "flexrc",
 		"body": [
 			"\"flex-layout.row#${1:name}\": {",
 			"\t\"children\": [\n\t\t\"flex-layout.col#$1\"\n\t],",
@@ -100,7 +100,7 @@
 	},
 
 	"Flex Row into Flex Col": {
-		"prefix": "vfcr",
+		"prefix": "flexcr",
 		"body": [
 			"\"flex-layout.col#${1:name}\": {",
 			"\t\"children\": [\n\t\t\"flex-layout.row#$1\"\n\t],",

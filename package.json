@@ -7,10 +7,9 @@
 		"snippets": [
 			{
 				"language": [
-					"json",
 					"jsonc"
 				],
-				"path": "./snippets/flex-layout.json"
+				"path": "./snippets/jsonc/flex-layout.json"
 			}
 		]
 	}
