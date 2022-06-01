@@ -10,6 +10,12 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/flex-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/rich-text.json"
 			}
 		]
 	}

@@ -1,0 +1,19 @@
+{
+	"Rich Text": {
+		"prefix": "rich",
+		"body": [
+			"\"rich-text#${1:name}\": {",
+			"\t\"props\": {",
+			"\t\t\"text\": \"\",",
+			"\t\t\"blockClass\": \"$1\",",
+			"\t\t\"font\": \"\",",
+			"\t\t\"textColor\": \"\",",
+			"\t\t\"textAlignment\": \"\", // RIGHT|LEFT|CENTER",
+			"\t\t\"textPosition\": \"\" // RIGHT|LEFT|CENTER",
+			"\t}",
+			"}"
+		],
+		"description": "VTEXIO - Defines a Rich Text",
+		"scope": "jsonc"
+	}
+}
