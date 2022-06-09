@@ -9,7 +9,19 @@
 				"language": [
 					"jsonc"
 				],
-				"path": "./snippets/jsonc/flex-layout.json"
+				"path": "./snippets/jsonc/Layout-Apps/flex-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Layout-Apps/condition-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Layout-Apps/disclosure-layout.json"
 			},
 			{
 				"language": [
