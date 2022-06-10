@@ -27,6 +27,12 @@
 				"language": [
 					"jsonc"
 				],
+				"path": "./snippets/jsonc/Layout-Apps/modal-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
 				"path": "./snippets/jsonc/rich-text.json"
 			}
 		]
