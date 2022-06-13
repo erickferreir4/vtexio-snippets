@@ -33,6 +33,12 @@
 				"language": [
 					"jsonc"
 				],
+				"path": "./snippets/jsonc/Layout-Apps/overlay-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
 				"path": "./snippets/jsonc/rich-text.json"
 			}
 		]
