@@ -3,6 +3,7 @@
 		"prefix": "flexc",
 		"body": [
 			"\"flex-layout.col#${1:name}\": {",
+			"\t\"title\": \"Flex Col $1\",",
 			"\t\"children\": [\n\t\t//blocks...\n\t],",
 			"\t\"props\":{",
 			"\t\t\"blockClass\": \"$1\",",
@@ -29,6 +30,7 @@
 		"prefix": "flexr",
 		"body": [
 			"\"flex-layout.row#${1:name}\": {",
+			"\t\"title\": \"Flex Row $1\",",
 			"\t\"children\": [\n\t\t//blocks...\n\t],",
 			"\t\"props\":{",
 			"\t\t\"blockClass\": \"$1\",",
@@ -57,6 +59,7 @@
 		"prefix": "flexrc",
 		"body": [
 			"\"flex-layout.row#${1:name}\": {",
+			"\t\"title\": \"Flex Col into Row $1\",",
 			"\t\"children\": [\n\t\t\"flex-layout.col#$1\"\n\t],",
 			"\t\"props\":{",
 			"\t\t\"blockClass\": \"$1\",",
@@ -77,6 +80,7 @@
 			"\t}",
 			"},",
 			"\"flex-layout.col#${1:name}\": {",
+			"\t\"title\": \"Flex Col $1\",",
 			"\t\"children\": [\n\t\t//blocks...\n\t],",
 			"\t\"props\":{",
 			"\t\t\"blockClass\": \"$1\",",
@@ -103,6 +107,7 @@
 		"prefix": "flexcr",
 		"body": [
 			"\"flex-layout.col#${1:name}\": {",
+			"\t\"title\": \"Flex Row into Col $1\",",
 			"\t\"children\": [\n\t\t\"flex-layout.row#$1\"\n\t],",
 			"\t\"props\":{",
 			"\t\t\"blockClass\": \"$1\",",
@@ -121,6 +126,7 @@
 			"\t}",
 			"},",
 			"\"flex-layout.row#${1:name}\": {",
+			"\t\"title\": \"Flex Row $1\",",
 			"\t\"children\": [\n\t\t//blocks...\n\t],",
 			"\t\"props\":{",
 			"\t\t\"blockClass\": \"$1\",",
