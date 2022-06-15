@@ -3,7 +3,7 @@
 		"prefix": "rich",
 		"body": [
 			"\"rich-text#${1:name}\": {",
-			"\t\"title\": \"$1\"",
+			"\t\"title\": \"$1\",",
 			"\t\"props\": {",
 			"\t\t\"text\": \"\",",
 			"\t\t\"blockClass\": \"$1\",",

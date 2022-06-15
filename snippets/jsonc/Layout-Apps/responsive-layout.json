@@ -1,0 +1,35 @@
+{
+	"Responsive Layout Desktop": {
+		"prefix": "resd",
+		"description": "VTEXIO - Defines a Responsive Layout Desktop",
+		"scope": "jsonc",
+		"body": [
+			"\"responsive-layout.desktop#${1:name}\": {",
+				"\t\"title\": \"Responsive Desktop $1\",",
+				"\t\"children\": []",
+			"}"
+		]
+	},
+	"Responsive Layout Tablet": {
+		"prefix": "restt",
+		"description": "VTEXIO - Defines a Responsive Layout Tablet",
+		"scope": "jsonc",
+		"body": [
+			"\"responsive-layout.tablet#${1:name}\": {",
+				"\t\"title\": \"Responsive Tablet $1\",",
+				"\t\"children\": []",
+			"}"
+		]
+	},
+	"Responsive Layout Phone": {
+		"prefix": "restp",
+		"description": "VTEXIO - Defines a Responsive Layout Phone",
+		"scope": "jsonc",
+		"body": [
+			"\"responsive-layout.phone#${1:name}\": {",
+				"\t\"title\": \"Responsive Phone $1\",",
+				"\t\"children\": []",
+			"}"
+		]
+	}
+}

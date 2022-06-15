@@ -39,6 +39,12 @@
 				"language": [
 					"jsonc"
 				],
+				"path": "./snippets/jsonc/Layout-Apps/responsive-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
 				"path": "./snippets/jsonc/rich-text.json"
 			}
 		]
