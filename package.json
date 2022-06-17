@@ -45,6 +45,12 @@
 				"language": [
 					"jsonc"
 				],
+				"path": "./snippets/jsonc/Layout-Apps/slider-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
 				"path": "./snippets/jsonc/rich-text.json"
 			}
 		]
