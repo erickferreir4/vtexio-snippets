@@ -1,0 +1,32 @@
+{
+	"Stack Layout": {
+		"prefix": "stacl",
+		"description": "VTEXIO - Defines a Stack Layout",
+		"scope": "jsonc",
+		"body": [
+			"\"stack-layout#${1:name}\": {",
+			"\t\"title\": \"Stack Layout $1\",",
+			"\t\"children\": [",
+			"\t\t\"rich-text#viewone-$1\",",
+			"\t\t\"rich-text#viewtwo-$1\"",
+			"\t],",
+			"\t\"props\": {",
+			"\t\t\"blockClass\": \"$1\",",
+			"\t\t\"zIndexOffset\": 0",
+			"\t}",
+			"},",
+			"\"rich-text#viewone-$1\": {",
+			"\t\"title\": \"Rich Text Stack One $1\",",
+			"\t\"props\": {",
+			"\t\t\"text\": \"viewone\"",
+			"\t}",
+			"},",
+			"\"rich-text#viewtwo-$1\": {",
+			"\t\"title\": \"Rich Text Stack Two $1\",",
+			"\t\"props\": {",
+			"\t\t\"text\": \"viewtwo\"",
+			"\t}",
+			"}"
+		]
+	}
+}

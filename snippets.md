@@ -47,6 +47,21 @@ overl		-	Overlay Layout
 modl		-	Modal Layout
 ```
 
+#### Stack Layout
+
+```
+stacl		-	Stack Layout
+```
+
+#### Slider Layout
+
+```
+slidl		-	Slider Layout
+```
+
+```
+slidlg		-	Stack Layout Group
+```
 
 
 
