@@ -63,6 +63,18 @@ slidl		-	Slider Layout
 slidlg		-	Stack Layout Group
 ```
 
+#### Sticky Layout
+
+```
+sticl		-	Sticky Layout
+```
+
+#### Tab Layout
+
+```
+tabl		-	Tab Layout
+```
+
 
 
 

@@ -57,6 +57,18 @@
 				"language": [
 					"jsonc"
 				],
+				"path": "./snippets/jsonc/Layout-Apps/sticky-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Layout-Apps/tab-layout.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
 				"path": "./snippets/jsonc/rich-text.json"
 			}
 		]
