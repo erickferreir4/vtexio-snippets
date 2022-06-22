@@ -69,7 +69,13 @@
 				"language": [
 					"jsonc"
 				],
-				"path": "./snippets/jsonc/rich-text.json"
+				"path": "./snippets/jsonc/Basic-components/rich-text.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/add-to-cart-button.json"
 			}
 		]
 	}

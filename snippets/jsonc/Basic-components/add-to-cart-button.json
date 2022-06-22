@@ -1,0 +1,22 @@
+{
+	"Add To Cart Button": {
+		"prefix": "addc",
+		"description": "VTEXIO - Defines a Add Cart Button",
+		"scope": "jsonc",
+		"body": [
+			"\"add-to-cart-button#${1:name}\": {",
+			"\t\"props\": {",
+			"\t\t\"blockClass\": \"$1\",",
+			"\t\t\"onClickBehavior\": \"add-to-cart\", // add-to-cart | go-to-product-page | ensure-sku-selection",
+			"\t\t\"onClickEventPropagation\": \"disabled\", // disabled | enabled",
+			"\t\t\"isOneClickBuy\": false,",
+			"\t\t\"customOneClickBuyLink\": \"/checkout/#/cart\",",
+			"\t\t\"customToastUrl\": \"/checkout/#/cart\",",
+			"\t\t\"text\": \"Add to cart\",",
+			"\t\t\"unavailableText\": \"Unavailable\",",
+			"\t\t\"customPixelEventId\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}
