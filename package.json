@@ -76,6 +76,18 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/add-to-cart-button.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/autocomplete-result-list.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/banner-search.json"
 			}
 		]
 	}

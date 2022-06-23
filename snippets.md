@@ -79,9 +79,22 @@ tabl		-	Tab Layout
 
 
 
+## Basic Components
 
 ###	Rich Text
 
 ```
 rich		-	rich text
+```
+
+```
+autoc		-	autocomplete
+```
+
+```
+addc		-	add to cart button
+```
+
+```
+banns		-	Banner Search Result
 ```

@@ -1,0 +1,32 @@
+{
+	"Autocomplete": {
+		"prefix": "autoc",
+		"description": "VTEXIO - Defines a Autocomplete",
+		"scope": "jsonc",
+		"body": [
+			"\"autocomplete-result-list.v2\": {",
+			"\t\"blocks\": [\"product-summary\"],",
+			"\t\"props\": {",
+			"\t\t\"maxTopSearches\": 10,",
+			"\t\t\"maxHistory\": 5,",
+			"\t\t\"maxSuggestedProducts\": 3,",
+			"\t\t\"maxSuggestedTerms\": 3,",
+			"\t\t\"autocompleteWidth\": 100,",
+			"\t\t\"productLayout\": \"Horizontal\", // Horizontal | Vertical",
+			"\t\t\"hideTitles\": false,",
+			"\t\t\"historyFirst\": false,",
+			"\t\t\"__unstableProductOriginVtex\": false,",
+			"\t\t\"simulationBehavior\": \"default\", // default | skip",
+			"\t\t\"customPage\": \"store.search\",",
+			"\t\t\"orderBy\": \"OrderByScoreDESC\" // OrderByScoreDESC | OrderByTopSaleDESC | OrderByReleaseDateDESC | OrderByBestDiscountDESC | OrderByPriceDESC | OrderByPriceASC | OrderByNameASC | OrderByNameDESC | OrderByScoreDESC",
+			"\t}",
+			"},",
+			"\"search-bar\": {",
+			"\t\"blocks\": [\"autocomplete-result-list.v2\"],",
+			"\t\"props\": {",
+			"\t\t\"openAutocompleteOnFocus\": true",
+			"\t}",
+			"}"
+		]
+	}
+}
