@@ -1,0 +1,30 @@
+{
+	"Breadcrumb": {
+		"prefix": "brec",
+		"description": "VTEXIO - Defines a Breadcrumb",
+		"scope": "jsonc",
+		"body": [
+			"\"breadcrumb\": {",
+			"\t\"props\": {",
+			"\t\t\"showOnMobile\": false,",
+			"\t\t\"homeIconSize\": 26,",
+			"\t\t\"caretIconSize\": 8",
+			"\t}",
+			"}"
+		]
+	},
+	"Breadcrumb Search": {
+		"prefix": "brecs",
+		"description": "VTEXIO - Defines a Breadcrumb Search Page",
+		"scope": "jsonc",
+		"body": [
+			"\"breadcrumb.search\": {",
+			"\t\"props\": {",
+			"\t\t\"showOnMobile\": false,",
+			"\t\t\"homeIconSize\": 26,",
+			"\t\t\"caretIconSize\": 8",
+			"\t}",
+			"}"
+		]
+	}
+}

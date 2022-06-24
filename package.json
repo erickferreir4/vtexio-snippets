@@ -88,6 +88,18 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/banner-search.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/breadcrumb.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/footer.json"
 			}
 		]
 	}

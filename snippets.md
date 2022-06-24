@@ -98,3 +98,15 @@ addc		-	add to cart button
 ```
 banns		-	Banner Search Result
 ```
+
+```
+brec		-	Breadcrumb
+```
+
+```
+bres		-	Breadcrumb Search Page
+```
+
+```
+foot		-	Footer Layout
+```
