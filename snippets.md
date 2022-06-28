@@ -81,8 +81,6 @@ tabl		-	Tab Layout
 
 ## Basic Components
 
-###	Rich Text
-
 ```
 rich		-	rich text
 ```
@@ -109,4 +107,16 @@ bres		-	Breadcrumb Search Page
 
 ```
 foot		-	Footer Layout
+```
+
+```
+headr		-	Header Layout
+```
+
+```
+login		-	Login Component
+```
+
+```
+loginc		-	Login Form
 ```
