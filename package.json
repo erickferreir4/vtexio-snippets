@@ -112,6 +112,12 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/login.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/menu.json"
 			}
 		]
 	}
