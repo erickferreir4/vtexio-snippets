@@ -1,2 +1,18 @@
 {
+	"minicart.v2": {
+		"props": {
+			"variation": "drawer", // drawer | popup | link | popupWithLink | block
+			"drawerSlideDirection": "rightToLeft", // rightToLeft | leftToRight
+			"maxDrawerWidth": 440, 
+			"openOnHover": false, 
+			"quantityDisplay": "not-empty", // not-empty | always | never 
+			"itemCountMode": "distinct", // distinct | total | totalAvailable | distinctAvailable
+			"backdropMode": "none", // none | visible
+			"MinicartIcon": "icon-cart"
+			//"linkVariationUrl": "", 
+			//"customPixelEventId": "",
+			//"customPixelEventName": "",
+			//"classes": ""
+		}
+	}
 }

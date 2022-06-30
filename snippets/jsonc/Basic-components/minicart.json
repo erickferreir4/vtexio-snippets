@@ -1,0 +1,25 @@
+{
+	"Minicart v2": {
+		"prefix": "minic",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Minicart",
+		"body": [
+			"\"minicart.v2\": {",
+			"\t\"props\": {",
+			"\t\t\"variation\": \"drawer\", // drawer | popup | link | popupWithLink | block",
+			"\t\t\"drawerSlideDirection\": \"rightToLeft\", // rightToLeft | leftToRight",
+			"\t\t\"maxDrawerWidth\": 440, ",
+			"\t\t\"openOnHover\": false, ",
+			"\t\t\"quantityDisplay\": \"not-empty\", // not-empty | always | never ",
+			"\t\t\"itemCountMode\": \"distinct\", // distinct | total | totalAvailable | distinctAvailable",
+			"\t\t\"backdropMode\": \"none\", // none | visible",
+			"\t\t\"MinicartIcon\": \"icon-cart\" // block",
+			"\t\t//\"linkVariationUrl\": \"\", ",
+			"\t\t//\"customPixelEventId\": \"\",",
+			"\t\t//\"customPixelEventName\": \"\",",
+			"\t\t//\"classes\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}
