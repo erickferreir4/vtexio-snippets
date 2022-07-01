@@ -132,3 +132,19 @@ menuc		-	Menu Children
 ```
 menus		-	Menu Submenu
 ```
+
+```
+highlf		-	Product Highlights Filter
+```
+
+```
+highls		-	Product Highlights simple
+```
+
+```
+highlw		-	Product Highlights wrapper
+```
+
+```
+minic		-	Minicart v2
+```

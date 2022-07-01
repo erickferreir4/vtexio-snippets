@@ -124,6 +124,12 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/minicart.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/product-highlights.json"
 			}
 		]
 	}

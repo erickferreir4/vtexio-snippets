@@ -1,0 +1,70 @@
+{
+	"Product Highlights Simple": {
+		"prefix": "highls",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Highlights Simple",
+		"body": [
+			"\"vtex.product-highlights@2.x:product-highlights\": {",
+			"\t\"children\": [ \"product-highlight-text\" ]",
+			"},",
+			"\"product-highlight-text\": {",
+			"\t\"props\": {",
+			"\t\t\"message\": \"{highlightName}\",",
+			"\t\t\"link\": \"/collection/{highlightId}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Highlights Wrapper": {
+		"prefix": "highlw",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Highlights Wrapper",
+		"body": [
+			"\"vtex.product-highlights@2.x:product-highlights\": {",
+			"\t\"children\": [ \"product-highlight-wrapper\" ]",
+			"},",
+			"\"product-highlight-wrapper\": {",
+			"\t\"children\": [",
+			"\t\t\"icon-star\",",
+			"\t\t\"product-highlight-text\"",
+			"\t]",
+			"},",
+			"\"product-highlight-text\": {",
+			"\t\"props\": {",
+			"\t\t\"message\": \"{highlightName}\",",
+			"\t\t\"link\": \"/collection/{highlightId}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Highlights Filter": {
+		"prefix": "highlf",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Highlights Filter",
+		"body": [
+			"\"vtex.product-highlights@2.x:product-highlights\": {",
+			"\t\"props\": {",
+			"\t\t\"type\": \"teaser\", // teaser | collection | promotion",
+			"\t\t\"filter\": {",
+			"\t\t\t\"type\": \"show\",",
+			"\t\t\t\"highlightNames\": [\"10% Boleto\"]",
+			"\t\t}",
+			"\t},",
+			"\t\"children\": [ \"product-highlight-wrapper\" ]",
+			"},",
+			"\"product-highlight-wrapper\": {",
+			"\t\"children\": [",
+			"\t\t\"icon-star\",",
+			"\t\t\"product-highlight-text\"",
+			"\t]",
+			"},",
+			"\"product-highlight-text\": {",
+			"\t\"props\": {",
+			"\t\t\"message\": \"{highlightName}\",",
+			"\t\t\"blockClass\": \"boleto\"",
+			"\t}",
+			"}"
+		]
+	}
+}
+

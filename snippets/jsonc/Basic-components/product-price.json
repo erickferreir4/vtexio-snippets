@@ -1,0 +1,18 @@
+{
+	"Product Price": {
+		"prefix": "",
+		"scope": "",
+		"description": "",
+		"body": [
+			"\"product-selling-price#summary\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t\t\"highlight\"",
+			"\t\t],",
+			"\t\t\"blockClass\": \"summary\",",
+			"\t\t\"message\": \"Selling price: {sellingPriceValue}\"",
+			"\t}",
+			"}"
+		]
+	}
+}
