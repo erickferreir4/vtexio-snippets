@@ -148,3 +148,42 @@ highlw		-	Product Highlights wrapper
 ```
 minic		-	Minicart v2
 ```
+
+```
+prsp		-	Product Selling Price
+```
+```
+prlp		-	Product List Price
+```
+```
+prspp		-	Product Spot Price
+```
+```
+prip		-	Product Installments Price
+```
+```
+prilp		-	Product Installments List Price
+```
+```
+prilip		-	Product Installments List Item Price
+```
+```
+prps		-	Product Price Savings
+```
+```
+prpsps		-	Product Price Spot Savings
+```
+```
+prlpr		-	Product List Price Range
+```
+```
+prspr		-	Product Selling Price Range
+```
+```
+prsn		-	Product Seller Name
+```
+```
+prpsu		-	Product Price Suspence
+```
+
+

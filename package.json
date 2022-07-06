@@ -130,6 +130,12 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/product-highlights.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/product-price.json"
 			}
 		]
 	}

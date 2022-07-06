@@ -1,8 +1,8 @@
 {
-	"Product Price": {
-		"prefix": "",
-		"scope": "",
-		"description": "",
+	"Product Selling Price": {
+		"prefix": "prsp",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Selling Price",
 		"body": [
 			"\"product-selling-price#summary\": {",
 			"\t\"props\": {",
@@ -10,7 +10,203 @@
 			"\t\t\t\"highlight\"",
 			"\t\t],",
 			"\t\t\"blockClass\": \"summary\",",
-			"\t\t\"message\": \"Selling price: {sellingPriceValue}\"",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"message\": \"sellingPriceValue: {sellingPriceValue} sellingPriceWithTax: {sellingPriceWithTax} sellingPriceWithUnitMultiplier: {sellingPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue}  sellingPriceWithUnitMultiplier: {sellingPriceWithUnitMultiplier} sellingPriceWithTax: {sellingPriceWithTax} sellingPriceValue: {sellingPriceValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product List Price": {
+		"prefix": "prlp",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product List Price",
+		"body": [
+			"\"product-list-price\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"list\",",
+			"\t\t\"message\": \"ListPrice: {listPriceValue} listPriceWithTax: {listPriceWithTax} listPriceWithUnitMultiplier: {listPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Spot Price": {
+		"prefix": "prspp",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Spot Price",
+		"body": [
+			"\"product-spot-price\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"spot\",",
+			"\t\t\"message\": \"spotPriceValue: {spotPriceValue}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Installments Price": {
+		"prefix": "prip",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Installments Price",
+		"body": [
+			"\"product-installments\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"installmentsCriteria\": \"max-quantity\", // max-quantity | max-quantity-without-interest",
+			"//\t\t\"installmentOptionsFilter\": {,",
+			"//\t\t\t\"paymentSystemName\": \"\",",
+			"//\t\t\t\"installmentsQuantity\": \"\"",
+			"//\t\t},",
+			"\t\t\"blockClass\": \"installments\",",
+			"\t\t\"message\": \"spotPriceValue: {spotPriceValue} installmentsNumber: {installmentsNumber} installmentValue: {installmentValue} installmentsTotalValue: {installmentsTotalValue} interestRate: {interestRate} paymentSystemName: {paymentSystemName}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Installments List Price": {
+		"prefix": "prilp",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Installments List Price",
+		"body": [
+			"\"product-installments-list\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"//\t\t\"paymentSystemName\": \"\",",
+			"//\t\t\"installmentsToShow\": \"\", // [1, n]",
+			"\t\t\"blockClass\": \"installments-list\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Installments List Item Price": {
+		"prefix": "prilip",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Installments List Item Price",
+		"body": [
+			"\"product-installments-list-item\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"blockClass\": \"installments-list-item\",",
+			"\t\t\"message\": \"spotPriceValue: {spotPriceValue} installmentsNumber: {installmentsNumber} installmentValue: {installmentValue} installmentsTotalValue: {installmentsTotalValue} interestRate: {interestRate} paymentSystemName: {paymentSystemName}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Price Savings": {
+		"prefix": "prps",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Price Savings",
+		"body": [
+			"\"product-price-savings\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"minimumPercentage\": 0,",
+			"\t\t\"percentageStyle\": \"locale\", // locale | compact",
+			"\t\t\"blockClass\": \"price-savings\",",
+			"\t\t\"message\": \"previousPriceValue: {previousPriceValue} newPriceValue: {newPriceValue} savingsValue: {savingsValue} savingsWithTax: {savingsWithTax} savingsPercentage: {savingsPercentage}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Price Spot Savings": {
+		"prefix": "prpsps",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Spot Price Savings",
+		"body": [
+			"\"product-spot-price-savings\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"price-spot-savings\",",
+			"\t\t\"message\": \"previousPriceValue: {previousPriceValue} newSpotPriceValue: {newSpotPriceValue} spotPriceSavingsValue: {spotPriceSavingsValue} spotPriceSavingsWithTax: {spotPriceSavingsWithTax} spotPriceSavingsPercentage: {spotPriceSavingsPercentage}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product List Price Range": {
+		"prefix": "prlpr",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product List Price Range",
+		"body": [
+			"\"product-list-price-range\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"list-price-range\",",
+			"\t\t\"message\": \"minPriceValue: {minPriceValue} maxPriceValue: {maxPriceValue} minPriceWithTax: {minPriceWithTax} maxPriceWithTax: {maxPriceWithTax} listPriceValue: {listPriceValue} listPriceWithTax: {listPriceWithTax}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Selling Price Range": {
+		"prefix": "prspr",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Selling Price Range",
+		"body": [
+			"\"product-selling-price-range\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"selling-price-range\",",
+			"\t\t\"message\": \"minPriceValue: {minPriceValue} maxPriceValue: {maxPriceValue} minPriceWithTax: {minPriceWithTax} maxPriceWithTax: {maxPriceWithTax} listPriceValue: {listPriceValue} listPriceWithTax: {listPriceWithTax}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Seller Name": {
+		"prefix": "prsn",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Seller Name",
+		"body": [
+			"\"product-seller-name\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"selling-price-range\",",
+			"\t\t\"message\": \"sellerName: {sellerName}\"",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Price Suspence": {
+		"prefix": "prpsu",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Price Suspence",
+		"body": [
+			"\"product-price-suspense\": {",
+			"\t\"props\": {",
+			"\t\t\"Fallback\": \"rich-text#loading\"",
+			"\t},",
+			"\t\"children\": [",
+			"\t\t\"product-list-price#summary\",",
+			"\t\t\"add-to-cart-button\"",
+			"\t]",
+			"},",
+			"\"rich-text#loading\": {",
+			"\t\"props\": {",
+			"\t\t\"text\": \"Loading...\"",
+			"\t}",
+			"},",
+			"\"product-list-price#summary\": {",
+			"\t\"props\": {",
+			"\t\t\"markers\": [",
+			"\t\t],",
+			"\t\t\"alwaysShow\": false,",
+			"\t\t\"blockClass\": \"list\",",
+			"\t\t\"message\": \"ListPrice: {listPriceValue} listPriceWithTax: {listPriceWithTax} listPriceWithUnitMultiplier: {listPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
 			"}"
 		]
