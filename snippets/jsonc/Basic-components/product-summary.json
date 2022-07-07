@@ -1,0 +1,22 @@
+{
+	"Product Summary Self": {
+		"scope": "jsonc",
+		"prefix": "prsu",
+		"description": "VTEXIO - Defines a Product Summary Self",
+		"body": [
+			"\"list-context.product-list\": {",
+			"\t\"blocks\": [\"product-summary.shelf\"]",
+			"},",
+			"\"product-summary.shelf\": {",
+			"\t\"children\": [",
+			"\t\t\"product-summary-name\",",
+			"\t\t\"product-summary-description\",",
+			"\t\t\"product-summary-image\",",
+			"\t\t\"product-summary-price\",",
+			"\t\t\"product-summary-sku-selector\",",
+			"\t\t\"product-summary-buy-button\"",
+			"\t]",
+			"}"
+		]
+	}
+}

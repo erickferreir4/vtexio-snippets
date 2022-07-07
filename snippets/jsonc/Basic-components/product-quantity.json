@@ -1,0 +1,19 @@
+{
+	"Product Quantity": {
+		"prefix": "prqy",
+		"descriptionl": "VTEXIO - Defines a Product Quantity",
+		"scope": "jsonc",
+		"body": [
+			"\"product-quantity\": {",
+			"\t\"props\": {",
+			"\t\t\"warningQuantityThreshold\": 0,",
+			"\t\t\"showUnit\": true,",
+			"\t\t\"size\": \"small\", // small | regular | large",
+			"\t\t\"showLabel\": true,",
+			"\t\t\"selectorType\": \"stepper\", // stepper | dropdown",
+			"\t\t\"quantitySelectorStep\": \"unitMultiplier\" //unitMultiplier | singleUnit",
+			"\t}",
+			"}"
+		]
+	}
+}

@@ -186,4 +186,15 @@ prsn		-	Product Seller Name
 prpsu		-	Product Price Suspence
 ```
 
+```
+prqy		-	Product Quantity
+```
+
+```
+prspeg		-	Product Specifications Group
+```
+
+```
+prsu		-	Product Summary
+```
 

@@ -136,6 +136,24 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/product-price.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/product-quantity.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/product-specifications.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/product-summary.json"
 			}
 		]
 	}
