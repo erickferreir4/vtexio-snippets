@@ -18,5 +18,64 @@
 			"\t]",
 			"}"
 		]
+	},
+	"Product Summary Buy Button": {
+		"scope": "jsonc",
+		"prefix": "prsubu",
+		"description": "VTEXIO - Defines a Product Summary Buy Button",
+		"body": [
+			"\"product-summary-buy-button\": {",
+			"\t\"props\": {",
+			"\t\t\"isOneClickBuy\": false,",
+			"\t\t\"buyButtonText\": \"BUY\",",
+			"\t\t\"displayBuyButton\": \"displayButtonAlways\", // displayButtonAlways | displayButtonHover | displayButtonNone",
+			"\t\t\"customToastURL\": \"/checkout/#/cart\",",
+			"\t\t\"buyButtonBehavior\": \"default\"// default | alwaysGoToProduct | alwaysAddToTheCart ",
+			"\t}",
+			"}"
+		]
+	},
+	"Product Summary Image": {
+		"scope": "jsonc",
+		"prefix": "prsui",
+		"description": "VTEXIO - Defines a Product Summary Image",
+		"body": [
+			"\"product-summary-image\": {",
+			"\t\"props\": {",
+			"\t\t\"showBadge\": true,",
+			"\t\t\"showCollections\": false,",
+			"\t\t\"displayMode\": \"normal\"// displayMode | inline",
+			"//\t\t\"badgeText\": \"\",",
+			"//\t\t\"placeholder\": \"\",",
+			"//\t\t\"hoverImageLabel\": \"\",",
+			"//\t\t\"mainImageLabel\": {",
+			"//\t\t\t\"label\": \"\",",
+			"//\t\t\t\"labelMatchCriteria\": \"exact\" // exact | contains",
+			"//\t\t},",
+			"//\t\t\"hoverImage\": {",
+			"//\t\t\t\"criteria\": \"label\", // label | index",
+			"//\t\t\t\"label\": \"\",",
+			"//\t\t\t\"labelMatchCriteria\": \"exact\", // exact | contains",
+			"//\t\t\t\"index\": 0",
+			"//\t\t},",
+			"//\t\t\"width\": {",
+			"//\t\t\t\"desktop\": \"\",",
+			"//\t\t\t\"mobile\": \"\"",
+			"//\t\t},",
+			"//\t\t\"height\": {",
+			"//\t\t\t\"desktop\": \"\",",
+			"//\t\t\t\"mobile\": \"\"",
+			"//\t\t},",
+			"//\t\t\"aspectRatio\": {",
+			"//\t\t\t\"desktop\": \"\",",
+			"//\t\t\t\"mobile\": \"\"",
+			"//\t\t},",
+			"//\t\t\"maxHeight\": {",
+			"//\t\t\t\"desktop\": \"\",",
+			"//\t\t\t\"mobile\": \"\"",
+			"//\t\t}",
+			"\t}",
+			"}"
+		]
 	}
 }

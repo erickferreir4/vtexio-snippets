@@ -198,3 +198,11 @@ prspeg		-	Product Specifications Group
 prsu		-	Product Summary
 ```
 
+```
+prsubu		-	Product Summary Buy Button
+```
+
+```
+prsui		-	Product Summary Image
+```
+
