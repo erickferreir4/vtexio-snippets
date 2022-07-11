@@ -206,3 +206,11 @@ prsubu		-	Product Summary Buy Button
 prsui		-	Product Summary Image
 ```
 
+```
+searb		-	Search Bar
+```
+
+```
+searl		-	Search Result Layout
+```
+
