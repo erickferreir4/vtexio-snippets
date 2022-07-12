@@ -65,5 +65,33 @@
 			"\t}",
 			"}"
 		]
+	},
+	"Filter Navigator": {
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Filter Results",
+		"prefix": "filn",
+		"body": [
+			"\"filter-navigator.v3\": {",
+			"\t\"props\": {",
+			"\t\t\"categoryFiltersMode\": \"default\", // default | href",
+			"\t\t\"layout\": \"responsive\", // responsive | desktop",
+			"\t\t\"maxItemsDepartment\": 8,",
+			"\t\t\"maxItemsCategory\": 8,",
+			"\t\t\"initiallyCollapsed\": false,",
+			"\t\t\"openFiltersMode\": \"many\",",
+			"\t\t\"filtersTitleHtmlTag\": \"h5\",",
+			"\t\t\"scrollToTop\": \"none\", // none | smooth | auto",
+			"\t\t\"truncateFilters\": false,",
+			"\t\t\"closeOnOutsideClick\": false,",
+			"\t\t\"appliedFiltersOverview\": \"hide\", // hide | show",
+			"\t\t\"totalProductsOnMobile\": \"hide\", // hide | show",
+			"\t\t\"fullWidthOnMobile\": false,",
+			"\t\t\"navigationTypeOnMobile\": \"page\", // page | collapsible",
+			"\t\t\"updateOnFilterSelectionOnMobile\": false,",
+			"\t\t\"showClearByFilter\": false,",
+			"\t\t\"priceRangeLayout\": \"slider\" // slider | inputAndSlider",
+			"\t}",
+			"}"
+		]
 	}
 }
