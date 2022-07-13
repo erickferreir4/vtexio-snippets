@@ -218,3 +218,11 @@ searl		-	Search Result Layout
 filn		-	Filter Navigator v3
 ```
 
+```
+stors		-	Store Search Pages
+```
+
+```
+searcl		-	Search Result Custon
+```
+
