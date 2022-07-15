@@ -160,6 +160,12 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/search.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Basic-components/store-image.json"
 			}
 		]
 	}

@@ -226,3 +226,7 @@ stors		-	Store Search Pages
 searcl		-	Search Result Custon
 ```
 
+```
+lisci		-	Store Image
+```
+
