@@ -166,6 +166,24 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Basic-components/store-image.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/back-to-top-button.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/image.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/info-card.json"
 			}
 		]
 	}

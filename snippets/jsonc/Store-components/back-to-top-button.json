@@ -1,0 +1,15 @@
+{
+	"Back To Top Button": {
+		"prefix": "backt",
+		"description": "VTEXIO - Defines a Back to top Button",
+		"scope": "jsonc",
+		"body": [
+			"\"back-to-top-button\": {",
+			"\t\"props\": {",
+			"\t\t\"displayThreshold\": 600,",
+			"\t\t\"display\": \"button\" // button | caret-icon",
+			"\t}",
+			"}"
+		]
+	}
+}

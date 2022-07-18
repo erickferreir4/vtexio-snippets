@@ -230,3 +230,17 @@ searcl		-	Search Result Custon
 lisci		-	Store Image
 ```
 
+
+## Store Components
+
+```
+infc		-	Info Card
+```
+
+```
+img		-	Image
+```
+
+```
+backt		-	Back to Top
+```

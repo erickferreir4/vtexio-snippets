@@ -1,0 +1,25 @@
+{
+	"Image": {
+		"prefix": "img",
+		"description": "VTEXIO - Defines a Image",
+		"scope": "json",
+		"body": [
+			"\"image#${1:example}\": {",
+			"\t\"props\": {",
+			"\t\t\"src\": \"https://storecomponents.vteximg.com.br/arquivos/box.png\",",
+			"\t\t\"alt\": \"$1\",",
+			"\t\t\"maxHeight\": 24",
+			"\t\t//\"maxWidth\": \"\",",
+			"\t\t//\"sizes\": \"\",",
+			"\t\t//\"srcSet\": \"\",",
+			"\t\t//\"title\": \"\",",
+			"\t\t//\"link\": {",
+			"\t\t//\t\"attributeNofollow\": false,",
+			"\t\t//\t\"newTab\": false,",
+			"\t\t//\t\"url\": \"\"",
+			"\t\t//}",
+			"\t}",
+			"}"
+		]
+	}
+}

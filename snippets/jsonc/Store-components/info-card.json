@@ -1,0 +1,29 @@
+{
+	"Info Card": {
+		"description": "VTEXIO - Defines a Info Card",
+		"scope": "json",
+		"prefix": "infc",
+		"body": [
+			"\"info-card#${1:name}\": {",
+			"\t\"props\": {",
+			"\t\t\"id\": \"info-card-$1\",",
+			"\t\t\"isFullModeStyle\": false,",
+			"\t\t\"blockClass\": \"info-card-$1\",",
+			"\t\t\"callToActionLinkTarget\": \"_self\", // _self | _blank | _parent | _top",
+			"\t\t\"callToActionMode\": \"button\", // button | none | link",
+			"\t\t\"callToActionText\": \"DISCOVER\",",
+			"\t\t\"imageUrl\": \"https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png\",",
+			"\t\t\"linkTarget\": \"_self\", // _self | _blank | _parent | _top",
+			"\t\t\"textAlignment\": \"left\", // left | center | right",
+			"\t\t\"textMode\": \"html\", // html | rich-text",
+			"\t\t\"textPosition\": \"left\" // left | right | center",
+			"\t\t//\"callToActionUrl\": \"\",",
+			"\t\t//\"headline\": \"\",",
+			"\t\t//\"htmlId\": \"\",",
+			"\t\t//\"mobileImageUrl\": \"\",",
+			"\t\t//\"subhead\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}
