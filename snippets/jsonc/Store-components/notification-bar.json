@@ -1,0 +1,14 @@
+{
+	"Notification Bar": {
+		"prefix": "notb",
+		"description": "VTEXIO - Defines a Notification Bar",
+		"scope": "jsonc",
+		"body": [
+			"\"notification.bar\": {",
+			"\t\"props\": {",
+			"\t\t\"content\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}

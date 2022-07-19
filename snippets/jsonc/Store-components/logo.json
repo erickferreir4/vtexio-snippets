@@ -1,0 +1,22 @@
+{
+	"Logo": {
+		"prefix": "log",
+		"description": "VTEXIO - Defines a Logo",
+		"scope": "jsonc",
+		"body": [
+			"\"logo\": {",
+			"\t\"props\": {",
+			"\t\t\"color\": \"#F71963\",",
+			"\t\t\"showLabel\": true,",
+			"\t\t\"title\": \"VTEX logo\",",
+			"\t\t\"height\": 177,",
+			"\t\t\"width\": 493,",
+			"\t\t\"mobileHeight\": 177,",
+			"\t\t\"mobileWidth\": 493,",
+			"\t\t\"url\": \"\",",
+			"\t\t\"href\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"Product Brand": {
+		"prefix": "prbr",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Brand",
+		"body": [
+			"\"product-brand\": {",
+			"\t\"props\": {",
+			"\t\t\"displayMode\": \"logo\", // logo | text",
+			"\t\t\"fallbackToText\": true,",
+			"\t\t\"height\": 100,",
+			"\t\t\"withLink\": \"link\" // none | logo | text | logoAndText",
+			"\t\t//\"loadingPlaceholder\": \"\",",
+			"\t\t//\"excludeBrands\": [],",
+			"\t\t//\"brandId\": \"\",",
+			"\t\t//\"brandName\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}

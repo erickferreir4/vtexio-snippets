@@ -244,3 +244,16 @@ img		-	Image
 ```
 backt		-	Back to Top
 ```
+
+```
+log		-	Logo
+```
+
+```
+notb		-	Notification Bar
+```
+
+```
+prbr		-	Product Brand
+```
+

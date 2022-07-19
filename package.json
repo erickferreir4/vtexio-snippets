@@ -184,6 +184,24 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Store-components/info-card.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/logo.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/notification-bar.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/product-brand.json"
 			}
 		]
 	}
