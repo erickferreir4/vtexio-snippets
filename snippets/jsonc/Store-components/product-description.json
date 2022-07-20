@@ -1,0 +1,16 @@
+{
+	"Product Description": {
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Produc Description",
+		"prefix": "prds",
+		"body": [
+			"\"product-description\": {",
+			"\t\"props\": {",
+			"\t\t\"collapseContent\": true,",
+			"\t\t\"showTitle\": true,",
+			"\t\t\"title\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}

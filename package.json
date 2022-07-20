@@ -202,6 +202,18 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Store-components/product-brand.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/product-description.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/product-images.json"
 			}
 		]
 	}

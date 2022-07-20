@@ -1,2 +1,27 @@
 {
+	"product-images": {
+		"props": {
+			"aspectRatio": "auto", // auto | 1:1 | 3:4 | 1920:1080
+			"contentOrder": "images-first", // images-first | videos-first
+			"contentType": "all", // images | videos | all
+			"displayMode": "carousel", // carousel | list | first-image
+			"displayThumbnailsArrows": false,
+			"hiddenImages": "skuvariation",
+			"maxHeight": 600,
+			"ModalZoom": "modal-layout#product-zoom",
+			"placeholder": "",
+			"position": "left", // left | right
+			"showNavigationArrows": true,
+			"showPaginationDots": true,
+			"thumbnailVisibility": "visible", // visible | hidden
+			"thumbnailAspectRatio": "auto", // auto | 1:1 | 3:4 | 1920:1080
+			"thumbnailMaxHeight": 150,
+			"thumbnailsOrientation": "vertical",
+			"zoomFactor": 2,
+			"zoomMode": "in-place-click" // in-place-click | disabled | in-place-hover | open-modal
+		}
+	},
+	"modal-layout#product-zoom": {
+		"children": []
+	}
 }

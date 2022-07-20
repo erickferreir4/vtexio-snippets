@@ -257,3 +257,11 @@ notb		-	Notification Bar
 prbr		-	Product Brand
 ```
 
+```
+prds		-	Product Description
+```
+
+```
+prims		-	Product Images
+```
+
