@@ -265,3 +265,11 @@ prds		-	Product Description
 prims		-	Product Images
 ```
 
+```
+prna		-	Product Name
+```
+
+```
+shar		-	Share
+```
+

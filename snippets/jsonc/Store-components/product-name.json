@@ -1,0 +1,17 @@
+{
+	"Product Name": {
+		"prefix": "prna",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Product Name",
+		"body": [
+			"\"product-name\": {",
+			"\t\"props\": {",
+			"\t\t\"displayMode\": \"plainText\", // plainText | linkToProductPage",
+			"\t\t\"showBrandName\": false,",
+			"\t\t\"showProductReference\": false,",
+			"\t\t\"showSku\": false",
+			"\t}",
+			"}"
+		]
+	}
+}

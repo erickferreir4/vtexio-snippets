@@ -1,0 +1,26 @@
+{
+	"Share": {
+		"prefix": "shar",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Share",
+		"body": [
+			"\"share\": {",
+			"\t\"props\": {",
+			"\t\t\"buttonsContainerClass\": true,",
+			"\t\t\"className\": \"\",",
+			"\t\t\"imageUrl\": \"\",",
+			"\t\t\"shareLabelClass\": true,",
+			"\t\t\"social\": {",
+			"\t\t\t\"Facebook\": true,",
+			"\t\t\t\"Twitter\": true,",
+			"\t\t\t\"WhatsApp\": true,",
+			"\t\t\t\"Pinterest\": true",
+			"\t\t},",
+			"\t\t\"options\": {",
+			"\t\t\t//\"size\": \"\"",
+			"\t\t}",
+			"\t}",
+			"}"
+		]
+	}
+}
