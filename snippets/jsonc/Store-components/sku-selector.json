@@ -1,0 +1,40 @@
+{
+	"Sku Selector": {
+		"prefix": "skus",
+		"description": "VTEXIO - Defines a Sku Selector",
+		"scope": "jsonc",
+		"body": [
+			"\"sku-selector\": {",
+			"\t\"props\": {",
+			"\t\t\"disableUnavailableSelectOptions\": false,",
+			"\t\t\"displayMode\": \"default\", // default | select | slider",
+			"\t\t\"hideImpossibleCombinations\": true,",
+			"\t\t\"initialSelection\": \"complete\", // complete | image | empty",
+			"\t\t\"maxItems\": 10,",
+			"\t\t\"showValueForVariation\": \"none\", // none | image | all",
+			"\t\t\"sliderArrowSize\": 12,",
+			"\t\t\"sliderDisplayThreshold\": 3,",
+			"\t\t\"showVariationsErrorMessage\": true,",
+			"\t\t\"showVariationsLabels\": \"variation\", // | variation | itemValue | variationAndItemValue",
+			"\t\t\"thumbnailImage\": \"\",",
+			"\t\t\"variationsSpacing\": 7,",
+			"\t\t\"visibility\": \"always\",",
+			"\t\t\"visibleVariations\": [],",
+			"\t\t\"sliderItemsPerPage\": {",
+			"\t\t\t\"desktop\": 3,",
+			"\t\t\t\"phone\": 1,",
+			"\t\t\t\"tablet\": 2",
+			"\t\t},",
+			"\t\t\"imageHeight\": {",
+			"\t\t\t\"desktop\": \"\",",
+			"\t\t\t\"mobile\": \"\"",
+			"\t\t},",
+			"\t\t\"imageWidth\": {",
+			"\t\t\t\"desktop\": \"\",",
+			"\t\t\t\"mobile\": \"\"",
+			"\t\t}",
+			"\t}",
+			"}"
+		]
+	}
+}

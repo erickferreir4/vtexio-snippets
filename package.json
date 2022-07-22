@@ -226,6 +226,18 @@
 					"jsonc"
 				],
 				"path": "./snippets/jsonc/Store-components/share.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/shipping-simulator.json"
+			},
+			{
+				"language": [
+					"jsonc"
+				],
+				"path": "./snippets/jsonc/Store-components/sku-selector.json"
 			}
 		]
 	}

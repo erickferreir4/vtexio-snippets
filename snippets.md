@@ -273,3 +273,11 @@ prna		-	Product Name
 shar		-	Share
 ```
 
+```
+ships		-	Shipping Simulator
+```
+
+```
+skus		-	Sku Selector
+```
+

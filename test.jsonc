@@ -1,19 +1,2 @@
 {
-	"share": {
-		"props": {
-			"buttonsContainerClass": true,
-			"className": "",
-			"imageUrl": "",
-			"shareLabelClass": true,
-			"social": {
-				"Facebook": true,
-				"Twitter": true,
-				"WhatsApp": true,
-				"Pinterest": true
-			},
-			"options": {
-				//"size": ""
-			}
-		}
-	}
 }

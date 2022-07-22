@@ -1,0 +1,17 @@
+{
+	"Shipping Simulator": {
+		"prefix": "ships",
+		"scope": "jsonc",
+		"description": "VTEXIO - Defines a Shipping Simulator",
+		"body": [
+			"\"shipping-simulator\": {",
+			"\t\"props\": {",
+			"\t\t\"pricingMode\": \"individualItems\", // individualItems | grouped",
+			"\t\t\"shouldUpdateOrderForm\": true",
+			"\t\t//\"seller\": \"\",",
+			"\t\t//\"skuId\": \"\"",
+			"\t}",
+			"}"
+		]
+	}
+}
