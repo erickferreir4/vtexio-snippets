@@ -1,47 +1,88 @@
 # VTEX IO Snippets
 
-A collection of **71 snippets** for VTEX IO store theme development in JSONC format.
+A collection of **71 snippets** for [VTEX IO](https://developers.vtex.com/) store theme development. Supports **Helix**, **Neovim**, **Vim**, and **VS Code**.
 
-> **Note:** This collection is a work in progress. Many VTEX IO blocks are still missing and will be added over time. Contributions are welcome.
+> **Note:** This collection is a work in progress. Contributions are welcome.
 
 ## Install
 
-Add to your Neovim / Vim plugin manager:
+### Helix
+
+Requires [scls](https://github.com/estin/simple-completion-language-server) for external snippet support.
+
+Add to your `languages.toml` (typically `~/.config/helix/languages.toml`):
+
+```toml
+[[language]]
+name = "jsonc"
+language-servers = ["scls", "vscode-json-language-server"]
+```
+
+Add to your `external-snippets.toml` (typically `~/.config/helix/external-snippets.toml`):
+
+```toml
+[[sources]]
+name = "vtexio-snippets"
+git = "https://github.com/erickferreir4/vtexio-snippets.git"
+
+[[sources.paths]]
+scope = ["jsonc"]
+path = "snippets.json"
+```
+
+Then run:
+
+```bash
+simple-completion-language-server fetch-external-snippets
+simple-completion-language-server validate-snippets
+```
+
+### Neovim / Vim
 
 ```lua
 -- Packer
 use "erickferreir4/vtexio-snippets"
 
--- Plug
+-- lazy.nvim
+{ "erickferreir4/vtexio-snippets" }
+
+-- vim-plug
 Plug 'erickferreir4/vtexio-snippets'
 
 -- coc.nvim
 CocInstall https://github.com/erickferreir4/vtexio-snippets@master
 ```
 
-For VS Code, copy the files from `snippets/jsonc/` into your `.vscode/` directory.
+### VS Code
 
-> **Note:** This package is not yet available as a plugin in the VS Code Marketplace.
+This package is not yet on the VS Code Marketplace. Install it locally:
+
+1. Clone the repo into `~/.vscode/extensions/vtexio-snippets/`
+2. Restart VS Code
+
+Alternatively, copy the individual snippet files from `snippets/` into your `.vscode/` directory as `.code-snippets` files.
 
 ## Usage
 
-Each snippet expands to a block configuration with `$1`, `${1:name}` placeholders. Type the prefix and press Tab.
+Type a prefix and press Tab to expand into a full VTEX IO block configuration. Use Tab to jump between placeholders (`$1`, `$2`, etc.).
 
-```
-rich + Tab  →  rich-text block with props
-flexc + Tab →  flex-layout.col block
-prsp + Tab  →  product-selling-price block
-```
+| Input       | Expands to                         |
+|-------------|------------------------------------|
+| `rich`      | `rich-text` block with props       |
+| `flexc`     | `flex-layout.col` block            |
+| `flexr`     | `flex-layout.row` block            |
+| `prsp`      | `product-selling-price` block      |
+| `stacl`     | `stack-layout` block               |
+| `slidlg`    | `slider-layout-group` block        |
 
 ## Project Structure
 
 ```
 snippets/
-  jsonc/
-    Layout-Apps/       (10 files)
-    Basic-components/  (17 files)
-    Store-components/  (12 files)
-snippets.md           (quick reference)
+  Layout-Apps/         (10 files)
+  Basic-components/    (17 files)
+  Store-components/    (12 files)
+snippets.json         (all 71 snippets in a single file)
 package.json          (VS Code extension manifest)
 ```
 
@@ -132,6 +173,10 @@ package.json          (VS Code extension manifest)
 | `shar`  | Share                |
 | `ships` | Shipping Simulator   |
 | `skus`  | Sku Selector         |
+
+## Contributing
+
+Missing a block? Open an [issue](https://github.com/erickferreir4/vtexio-snippets/issues) or submit a PR. Snippet files use the [FriendlySnippets](https://github.com/rafamadriz/friendly-snippets) format.
 
 ## License
 
