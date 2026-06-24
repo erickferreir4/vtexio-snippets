@@ -18,7 +18,7 @@
 			"\t\t\"blockClass\": \"$1\",",
 			"\t\t\"horizontalAlignment\": \"center\" // center | left | right",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

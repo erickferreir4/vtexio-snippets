@@ -40,7 +40,7 @@
 			"\t\t\"simulationBehavior\": \"default\"",
 			"\t\t//\"HorizontalProductSummary\": \"\" // customized 'product-summary' block here",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Search Result Layout": {
@@ -154,7 +154,7 @@
 			"\t\t\"showClearByFilter\": false,",
 			"\t\t\"priceRangeLayout\": \"slider\" // slider | inputAndSlider",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Filter Navigator": {
@@ -182,7 +182,7 @@
 			"\t\t\"showClearByFilter\": false,",
 			"\t\t\"priceRangeLayout\": \"slider\" // slider | inputAndSlider",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Search Result Custom": {
@@ -206,7 +206,7 @@
 			"\t\t\t//\"includedPaymentSystems\": \"\"",
 			"\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Store Search": {
@@ -258,7 +258,7 @@
 			"\t\t\t\"simulationBehavior\": \"default\"",
 			"\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

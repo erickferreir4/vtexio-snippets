@@ -28,7 +28,7 @@
 			"\t\t\"product-summary-sku-selector\",",
 			"\t\t\"product-summary-buy-button\"",
 			"\t]",
-			"}"
+			"},"
 		]
 	},
 	"Product Summary Buy Button": {
@@ -44,7 +44,7 @@
 			"\t\t\"customToastURL\": \"/checkout/#/cart\",",
 			"\t\t\"buyButtonBehavior\": \"default\"// default | alwaysGoToProduct | alwaysAddToTheCart ",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Summary Image": {
@@ -87,7 +87,7 @@
 			"//\t\t\t\"mobile\": \"\"",
 			"//\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

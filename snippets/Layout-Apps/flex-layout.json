@@ -20,7 +20,7 @@
 			"\t\t\"verticalAlign\": \"\", // top|middle|bottom",
 			"\t\t\"width\": \"\" // percentage or 'grow'",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Layout Column",
 		"scope": "jsonc"
@@ -48,7 +48,7 @@
 			"\t\t\"preventVerticalStretch\": \"\", // Boolean",
 			"\t\t\"rowGap\": \"\" // number",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Layout Row",
 		"scope": "jsonc"
@@ -95,7 +95,7 @@
 			"\t\t\"verticalAlign\": \"\", // top|middle|bottom",
 			"\t\t\"width\": \"\" // percentage or 'grow'",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Col into Flex Row block",
 		"scope": "jsonc"
@@ -142,7 +142,7 @@
 			"\t\t\"preventVerticalStretch\": \"\", // Boolean",
 			"\t\t\"rowGap\": \"\" // number",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Row into Flex Col block",
 		"scope": "jsonc"

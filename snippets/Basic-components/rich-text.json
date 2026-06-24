@@ -12,7 +12,7 @@
 			"\t\t\"textAlignment\": \"\", // RIGHT|LEFT|CENTER",
 			"\t\t\"textPosition\": \"\" // RIGHT|LEFT|CENTER",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Rich Text",
 		"scope": "jsonc"

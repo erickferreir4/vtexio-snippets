@@ -35,7 +35,7 @@
 			"\t\t\t//\"cssClass\": \"\"",
 			"\t\t//},",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Login Content": {
@@ -60,7 +60,7 @@
 			"\t\t//\"invalidIdentifierError\": \"\",",
 			"\t\t//\"termsAndConditions\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

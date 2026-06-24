@@ -10,7 +10,7 @@
 			"\t\t\"homeIconSize\": 26,",
 			"\t\t\"caretIconSize\": 8",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Breadcrumb Search": {
@@ -24,7 +24,7 @@
 			"\t\t\"homeIconSize\": 26,",
 			"\t\t\"caretIconSize\": 8",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

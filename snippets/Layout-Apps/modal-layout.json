@@ -30,11 +30,11 @@
 			"\t],",
 			"\t\"props\": {",
 			"\t\t\"scroll\": \"content\", // content | body",
-			"\t\t\"blockClass\": \"$1\",", 
-			"\t\t\"disableEscapeKeyDown\": false,", 
-			"\t\t\"fullScreen\": false,", 
-			"\t\t\"backdrop\": \"clickable\", // clickable | none", 
-			"\t\t\"customPixelEventId\": \"\", // Store event ID responsible for triggering the modal-layout", 
+			"\t\t\"blockClass\": \"$1\",",
+			"\t\t\"disableEscapeKeyDown\": false,",
+			"\t\t\"fullScreen\": false,",
+			"\t\t\"backdrop\": \"clickable\", // clickable | none",
+			"\t\t\"customPixelEventId\": \"\", // Store event ID responsible for triggering the modal-layout",
 			"\t\t\"customPixelEventName\": \"\" // Store event name responsible for triggering the modal-layout",
 			"\t}",
 			"},",
@@ -49,7 +49,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"Hello\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

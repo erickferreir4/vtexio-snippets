@@ -16,7 +16,7 @@
 			"\t\"title\": \"Disclosure Trigger $1\",",
 			"\t\"children\": [\"rich-text#question-$1\"],",
 			"\t\"props\": {",
-			"\t\t\"as\": \"button\", // HTML tag", 
+			"\t\t\"as\": \"button\", // HTML tag",
 			"\t\t\"blockClass\": \"$1\"",
 			"\t}",
 			"},",
@@ -61,7 +61,7 @@
 			"\t\t\"blockClass\": \"answer-$1\",",
 			"\t\t\"text\": \"Call us at the number (212) 1234-1234\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Disclosure Layout Group": {
@@ -106,7 +106,7 @@
 			"\t\"title\": \"Disclosure Trigger First $1\",",
 			"\t\"children\": [\"rich-text#first-question-$1\"],",
 			"\t\"props\": {",
-			"\t\t\"as\": \"button\", // HTML tag", 
+			"\t\t\"as\": \"button\", // HTML tag",
 			"\t\t\"blockClass\": \"$1\"",
 			"\t}",
 			"},",
@@ -129,7 +129,7 @@
 			"\t\"title\": \"Disclosure Trigger Second $1\",",
 			"\t\"children\": [\"rich-text#second-question-$1\"],",
 			"\t\"props\": {",
-			"\t\t\"as\": \"button\", // HTML tag", 
+			"\t\t\"as\": \"button\", // HTML tag",
 			"\t\t\"blockClass\": \"$1\"",
 			"\t}",
 			"},",
@@ -167,7 +167,7 @@
 			"\t\t\"blockClass\": \"answer-$1\",",
 			"\t\t\"text\": \"Call us at the number (212) 1234-1234\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

@@ -13,7 +13,7 @@
 			"\t\t\"selectorType\": \"stepper\", // stepper | dropdown",
 			"\t\t\"quantitySelectorStep\": \"unitMultiplier\" //unitMultiplier | singleUnit",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

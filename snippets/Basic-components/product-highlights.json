@@ -12,7 +12,7 @@
 			"\t\t\"message\": \"{highlightName}\",",
 			"\t\t\"link\": \"/collection/{highlightId}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Highlights Wrapper": {
@@ -34,7 +34,7 @@
 			"\t\t\"message\": \"{highlightName}\",",
 			"\t\t\"link\": \"/collection/{highlightId}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Highlights Filter": {
@@ -63,8 +63,7 @@
 			"\t\t\"message\": \"{highlightName}\",",
 			"\t\t\"blockClass\": \"boleto\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }
-

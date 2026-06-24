@@ -12,7 +12,7 @@
 			"\t\t\"textAlignment\": \"\", // RIGHT|LEFT|CENTER",
 			"\t\t\"textPosition\": \"\" // RIGHT|LEFT|CENTER",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Rich Text",
 		"scope": "jsonc"
@@ -70,7 +70,7 @@
 			"\t\t\t\"diners club\"",
 			"\t\t]",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Menu Children": {
@@ -125,7 +125,7 @@
 			"\t\t},",
 			"\t\t\"iconToTheRight\": false",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Menu Props": {
@@ -162,7 +162,7 @@
 			"\t\t\t}",
 			"\t\t]",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Menu Submenu": {
@@ -206,7 +206,7 @@
 			"\t\"children\": [",
 			"\t\t\"menu-item#shop\"",
 			"\t]",
-			"}"
+			"},"
 		]
 	},
 	"Product Specifications Group": {
@@ -253,7 +253,7 @@
 			"\t\"props\": {",
 			"\t\t\"message\": \"specificationName\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Add To Cart Button": {
@@ -273,7 +273,7 @@
 			"\t\t\"unavailableText\": \"Unavailable\",",
 			"\t\t\"customPixelEventId\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Quantity": {
@@ -290,7 +290,7 @@
 			"\t\t\"selectorType\": \"stepper\", // stepper | dropdown",
 			"\t\t\"quantitySelectorStep\": \"unitMultiplier\" //unitMultiplier | singleUnit",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Login": {
@@ -329,7 +329,7 @@
 			"\t\t\t//\"cssClass\": \"\"",
 			"\t\t//},",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Login Content": {
@@ -354,7 +354,7 @@
 			"\t\t//\"invalidIdentifierError\": \"\",",
 			"\t\t//\"termsAndConditions\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"List Context Image": {
@@ -397,7 +397,7 @@
 			"\t\t},",
 			"\t\t\"infinite\": true",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Minicart v2": {
@@ -420,7 +420,7 @@
 			"\t\t//\"customPixelEventName\": \"\",",
 			"\t\t//\"classes\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Banner Search": {
@@ -442,7 +442,7 @@
 			"\t\t\"blockClass\": \"$1\",",
 			"\t\t\"horizontalAlignment\": \"center\" // center | left | right",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Breadcrumb": {
@@ -456,7 +456,7 @@
 			"\t\t\"homeIconSize\": 26,",
 			"\t\t\"caretIconSize\": 8",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Breadcrumb Search": {
@@ -470,7 +470,7 @@
 			"\t\t\"homeIconSize\": 26,",
 			"\t\t\"caretIconSize\": 8",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Selling Price": {
@@ -487,7 +487,7 @@
 			"\t\t\"alwaysShow\": false,",
 			"\t\t\"message\": \"sellingPriceValue: {sellingPriceValue} sellingPriceWithTax: {sellingPriceWithTax} sellingPriceWithUnitMultiplier: {sellingPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue}  sellingPriceWithUnitMultiplier: {sellingPriceWithUnitMultiplier} sellingPriceWithTax: {sellingPriceWithTax} sellingPriceValue: {sellingPriceValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product List Price": {
@@ -503,7 +503,7 @@
 			"\t\t\"blockClass\": \"list\",",
 			"\t\t\"message\": \"ListPrice: {listPriceValue} listPriceWithTax: {listPriceWithTax} listPriceWithUnitMultiplier: {listPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Spot Price": {
@@ -519,7 +519,7 @@
 			"\t\t\"blockClass\": \"spot\",",
 			"\t\t\"message\": \"spotPriceValue: {spotPriceValue}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Installments Price": {
@@ -539,7 +539,7 @@
 			"\t\t\"blockClass\": \"installments\",",
 			"\t\t\"message\": \"spotPriceValue: {spotPriceValue} installmentsNumber: {installmentsNumber} installmentValue: {installmentValue} installmentsTotalValue: {installmentsTotalValue} interestRate: {interestRate} paymentSystemName: {paymentSystemName}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Installments List Price": {
@@ -555,7 +555,7 @@
 			"//\t\t\"installmentsToShow\": \"\", // [1, n]",
 			"\t\t\"blockClass\": \"installments-list\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Installments List Item Price": {
@@ -570,7 +570,7 @@
 			"\t\t\"blockClass\": \"installments-list-item\",",
 			"\t\t\"message\": \"spotPriceValue: {spotPriceValue} installmentsNumber: {installmentsNumber} installmentValue: {installmentValue} installmentsTotalValue: {installmentsTotalValue} interestRate: {interestRate} paymentSystemName: {paymentSystemName}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Price Savings": {
@@ -588,7 +588,7 @@
 			"\t\t\"blockClass\": \"price-savings\",",
 			"\t\t\"message\": \"previousPriceValue: {previousPriceValue} newPriceValue: {newPriceValue} savingsValue: {savingsValue} savingsWithTax: {savingsWithTax} savingsPercentage: {savingsPercentage}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Price Spot Savings": {
@@ -604,7 +604,7 @@
 			"\t\t\"blockClass\": \"price-spot-savings\",",
 			"\t\t\"message\": \"previousPriceValue: {previousPriceValue} newSpotPriceValue: {newSpotPriceValue} spotPriceSavingsValue: {spotPriceSavingsValue} spotPriceSavingsWithTax: {spotPriceSavingsWithTax} spotPriceSavingsPercentage: {spotPriceSavingsPercentage}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product List Price Range": {
@@ -620,7 +620,7 @@
 			"\t\t\"blockClass\": \"list-price-range\",",
 			"\t\t\"message\": \"minPriceValue: {minPriceValue} maxPriceValue: {maxPriceValue} minPriceWithTax: {minPriceWithTax} maxPriceWithTax: {maxPriceWithTax} listPriceValue: {listPriceValue} listPriceWithTax: {listPriceWithTax}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Selling Price Range": {
@@ -636,7 +636,7 @@
 			"\t\t\"blockClass\": \"selling-price-range\",",
 			"\t\t\"message\": \"minPriceValue: {minPriceValue} maxPriceValue: {maxPriceValue} minPriceWithTax: {minPriceWithTax} maxPriceWithTax: {maxPriceWithTax} listPriceValue: {listPriceValue} listPriceWithTax: {listPriceWithTax}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Seller Name": {
@@ -652,7 +652,7 @@
 			"\t\t\"blockClass\": \"selling-seller-name\",",
 			"\t\t\"message\": \"sellerName: {sellerName}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Price Suspense": {
@@ -682,7 +682,7 @@
 			"\t\t\"blockClass\": \"list\",",
 			"\t\t\"message\": \"ListPrice: {listPriceValue} listPriceWithTax: {listPriceWithTax} listPriceWithUnitMultiplier: {listPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Search Bar": {
@@ -726,7 +726,7 @@
 			"\t\t\"simulationBehavior\": \"default\"",
 			"\t\t//\"HorizontalProductSummary\": \"\" // customized 'product-summary' block here",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Search Result Layout": {
@@ -840,7 +840,7 @@
 			"\t\t\"showClearByFilter\": false,",
 			"\t\t\"priceRangeLayout\": \"slider\" // slider | inputAndSlider",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Filter Navigator": {
@@ -868,7 +868,7 @@
 			"\t\t\"showClearByFilter\": false,",
 			"\t\t\"priceRangeLayout\": \"slider\" // slider | inputAndSlider",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Search Result Custom": {
@@ -892,7 +892,7 @@
 			"\t\t\t//\"includedPaymentSystems\": \"\"",
 			"\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Store Search": {
@@ -944,7 +944,7 @@
 			"\t\t\t\"simulationBehavior\": \"default\"",
 			"\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Header": {
@@ -1034,7 +1034,7 @@
 			"\t\t\"sticky\": false,",
 			"\t\t\"inverted\": false",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Summary Self": {
@@ -1066,7 +1066,7 @@
 			"\t\t\"product-summary-sku-selector\",",
 			"\t\t\"product-summary-buy-button\"",
 			"\t]",
-			"}"
+			"},"
 		]
 	},
 	"Product Summary Buy Button": {
@@ -1082,7 +1082,7 @@
 			"\t\t\"customToastURL\": \"/checkout/#/cart\",",
 			"\t\t\"buyButtonBehavior\": \"default\"// default | alwaysGoToProduct | alwaysAddToTheCart ",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Summary Image": {
@@ -1125,7 +1125,7 @@
 			"//\t\t\t\"mobile\": \"\"",
 			"//\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Highlights Simple": {
@@ -1141,7 +1141,7 @@
 			"\t\t\"message\": \"{highlightName}\",",
 			"\t\t\"link\": \"/collection/{highlightId}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Highlights Wrapper": {
@@ -1163,7 +1163,7 @@
 			"\t\t\"message\": \"{highlightName}\",",
 			"\t\t\"link\": \"/collection/{highlightId}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Highlights Filter": {
@@ -1192,7 +1192,7 @@
 			"\t\t\"message\": \"{highlightName}\",",
 			"\t\t\"blockClass\": \"boleto\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Autocomplete": {
@@ -1222,7 +1222,7 @@
 			"\t\"props\": {",
 			"\t\t\"openAutocompleteOnFocus\": true",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Shipping Simulator": {
@@ -1237,7 +1237,7 @@
 			"\t\t//\"seller\": \"\",",
 			"\t\t//\"skuId\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Images": {
@@ -1269,7 +1269,7 @@
 			"},",
 			"\"modal-layout#product-zoom\": {",
 			"\t\"children\": []",
-			"}"
+			"},"
 		]
 	},
 	"Product Name": {
@@ -1284,7 +1284,7 @@
 			"\t\t\"showProductReference\": false,",
 			"\t\t\"showSku\": false",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Description": {
@@ -1298,7 +1298,7 @@
 			"\t\t\"showTitle\": true,",
 			"\t\t\"title\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Logo": {
@@ -1318,7 +1318,7 @@
 			"\t\t\"url\": \"\",",
 			"\t\t\"href\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Notification Bar": {
@@ -1330,7 +1330,7 @@
 			"\t\"props\": {",
 			"\t\t\"content\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Info Card": {
@@ -1357,7 +1357,7 @@
 			"\t\t//\"mobileImageUrl\": \"\",",
 			"\t\t//\"subhead\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Share": {
@@ -1381,7 +1381,7 @@
 			"\t\t\t//\"size\": \"\"",
 			"\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Sku Selector": {
@@ -1419,7 +1419,7 @@
 			"\t\t\t\"mobile\": \"\"",
 			"\t\t}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Image": {
@@ -1442,7 +1442,7 @@
 			"\t\t//\t\"url\": \"\"",
 			"\t\t//}",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Brand": {
@@ -1461,7 +1461,7 @@
 			"\t\t//\"brandId\": \"\",",
 			"\t\t//\"brandName\": \"\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Back To Top Button": {
@@ -1474,7 +1474,7 @@
 			"\t\t\"displayThreshold\": 600,",
 			"\t\t\"display\": \"button\" // button | caret-icon",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Tab Layout": {
@@ -1552,7 +1552,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"Tab 2 $1\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Modal Layout": {
@@ -1586,11 +1586,11 @@
 			"\t],",
 			"\t\"props\": {",
 			"\t\t\"scroll\": \"content\", // content | body",
-			"\t\t\"blockClass\": \"$1\",", 
-			"\t\t\"disableEscapeKeyDown\": false,", 
-			"\t\t\"fullScreen\": false,", 
-			"\t\t\"backdrop\": \"clickable\", // clickable | none", 
-			"\t\t\"customPixelEventId\": \"\", // Store event ID responsible for triggering the modal-layout", 
+			"\t\t\"blockClass\": \"$1\",",
+			"\t\t\"disableEscapeKeyDown\": false,",
+			"\t\t\"fullScreen\": false,",
+			"\t\t\"backdrop\": \"clickable\", // clickable | none",
+			"\t\t\"customPixelEventId\": \"\", // Store event ID responsible for triggering the modal-layout",
 			"\t\t\"customPixelEventName\": \"\" // Store event name responsible for triggering the modal-layout",
 			"\t}",
 			"},",
@@ -1605,7 +1605,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"Hello\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Condition Layout Product Page": {
@@ -1652,7 +1652,7 @@
 			"\t\t\"Then\": \"\", // Name of the block to be rendered if the conditions are met.",
 			"\t\t\"Else\": \"\" // Name of the block to be rendered if the conditions are not met.",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Condition Layout Search": {
@@ -1676,7 +1676,7 @@
 			"\t\t\"Then\": \"\", // Name of the block to be rendered if the conditions are met.",
 			"\t\t\"Else\": \"\" // Name of the block to be rendered if the conditions are not met.",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Condition Layout Binding": {
@@ -1699,7 +1699,7 @@
 			"\t\t\"Then\": \"\", // Name of the block to be rendered if the conditions are met.",
 			"\t\t\"Else\": \"\" // Name of the block to be rendered if the conditions are not met.",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Disclosure Layout": {
@@ -1719,7 +1719,7 @@
 			"\t\"title\": \"Disclosure Trigger $1\",",
 			"\t\"children\": [\"rich-text#question-$1\"],",
 			"\t\"props\": {",
-			"\t\t\"as\": \"button\", // HTML tag", 
+			"\t\t\"as\": \"button\", // HTML tag",
 			"\t\t\"blockClass\": \"$1\"",
 			"\t}",
 			"},",
@@ -1764,7 +1764,7 @@
 			"\t\t\"blockClass\": \"answer-$1\",",
 			"\t\t\"text\": \"Call us at the number (212) 1234-1234\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Disclosure Layout Group": {
@@ -1809,7 +1809,7 @@
 			"\t\"title\": \"Disclosure Trigger First $1\",",
 			"\t\"children\": [\"rich-text#first-question-$1\"],",
 			"\t\"props\": {",
-			"\t\t\"as\": \"button\", // HTML tag", 
+			"\t\t\"as\": \"button\", // HTML tag",
 			"\t\t\"blockClass\": \"$1\"",
 			"\t}",
 			"},",
@@ -1832,7 +1832,7 @@
 			"\t\"title\": \"Disclosure Trigger Second $1\",",
 			"\t\"children\": [\"rich-text#second-question-$1\"],",
 			"\t\"props\": {",
-			"\t\t\"as\": \"button\", // HTML tag", 
+			"\t\t\"as\": \"button\", // HTML tag",
 			"\t\t\"blockClass\": \"$1\"",
 			"\t}",
 			"},",
@@ -1870,7 +1870,7 @@
 			"\t\t\"blockClass\": \"answer-$1\",",
 			"\t\t\"text\": \"Call us at the number (212) 1234-1234\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Stack Layout": {
@@ -1900,7 +1900,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"viewtwo\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Slider Layout": {
@@ -1970,7 +1970,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"Slider 3 $1\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Slider Layout Group": {
@@ -2110,7 +2110,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"Slider 3 $1\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Flex Layout Column": {
@@ -2134,7 +2134,7 @@
 			"\t\t\"verticalAlign\": \"\", // top|middle|bottom",
 			"\t\t\"width\": \"\" // percentage or 'grow'",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Layout Column",
 		"scope": "jsonc"
@@ -2162,7 +2162,7 @@
 			"\t\t\"preventVerticalStretch\": \"\", // Boolean",
 			"\t\t\"rowGap\": \"\" // number",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Layout Row",
 		"scope": "jsonc"
@@ -2209,7 +2209,7 @@
 			"\t\t\"verticalAlign\": \"\", // top|middle|bottom",
 			"\t\t\"width\": \"\" // percentage or 'grow'",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Col into Flex Row block",
 		"scope": "jsonc"
@@ -2256,7 +2256,7 @@
 			"\t\t\"preventVerticalStretch\": \"\", // Boolean",
 			"\t\t\"rowGap\": \"\" // number",
 			"\t}",
-			"}"
+			"},"
 		],
 		"description": "VTEXIO - Defines a Flex Row into Flex Col block",
 		"scope": "jsonc"
@@ -2282,7 +2282,7 @@
 			"\t\"props\": {",
 			"\t\t\"text\": \"sticky text\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Overlay Layout": {
@@ -2329,7 +2329,7 @@
 			"\t\t\"text\": \"\\n**Reach us at\\n**www.vtex.com.br\",",
 			"\t\t\"blockClass\": \"link-$1\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Responsive Layout Desktop": {
@@ -2338,9 +2338,9 @@
 		"scope": "jsonc",
 		"body": [
 			"\"responsive-layout.desktop#${1:name}\": {",
-				"\t\"title\": \"Responsive Desktop $1\",",
-				"\t\"children\": []",
-			"}"
+			"\t\"title\": \"Responsive Desktop $1\",",
+			"\t\"children\": []",
+			"},"
 		]
 	},
 	"Responsive Layout Tablet": {
@@ -2349,9 +2349,9 @@
 		"scope": "jsonc",
 		"body": [
 			"\"responsive-layout.tablet#${1:name}\": {",
-				"\t\"title\": \"Responsive Tablet $1\",",
-				"\t\"children\": []",
-			"}"
+			"\t\"title\": \"Responsive Tablet $1\",",
+			"\t\"children\": []",
+			"},"
 		]
 	},
 	"Responsive Layout Phone": {
@@ -2360,9 +2360,9 @@
 		"scope": "jsonc",
 		"body": [
 			"\"responsive-layout.phone#${1:name}\": {",
-				"\t\"title\": \"Responsive Phone $1\",",
-				"\t\"children\": []",
-			"}"
+			"\t\"title\": \"Responsive Phone $1\",",
+			"\t\"children\": []",
+			"},"
 		]
 	}
 }

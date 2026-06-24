@@ -43,7 +43,7 @@
 			"\t\t\"Then\": \"\", // Name of the block to be rendered if the conditions are met.",
 			"\t\t\"Else\": \"\" // Name of the block to be rendered if the conditions are not met.",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Condition Layout Search": {
@@ -67,7 +67,7 @@
 			"\t\t\"Then\": \"\", // Name of the block to be rendered if the conditions are met.",
 			"\t\t\"Else\": \"\" // Name of the block to be rendered if the conditions are not met.",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Condition Layout Binding": {
@@ -90,7 +90,7 @@
 			"\t\t\"Then\": \"\", // Name of the block to be rendered if the conditions are met.",
 			"\t\t\"Else\": \"\" // Name of the block to be rendered if the conditions are not met.",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

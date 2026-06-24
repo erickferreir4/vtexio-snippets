@@ -13,7 +13,7 @@
 			"\t\t\"alwaysShow\": false,",
 			"\t\t\"message\": \"sellingPriceValue: {sellingPriceValue} sellingPriceWithTax: {sellingPriceWithTax} sellingPriceWithUnitMultiplier: {sellingPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue}  sellingPriceWithUnitMultiplier: {sellingPriceWithUnitMultiplier} sellingPriceWithTax: {sellingPriceWithTax} sellingPriceValue: {sellingPriceValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product List Price": {
@@ -29,7 +29,7 @@
 			"\t\t\"blockClass\": \"list\",",
 			"\t\t\"message\": \"ListPrice: {listPriceValue} listPriceWithTax: {listPriceWithTax} listPriceWithUnitMultiplier: {listPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Spot Price": {
@@ -45,7 +45,7 @@
 			"\t\t\"blockClass\": \"spot\",",
 			"\t\t\"message\": \"spotPriceValue: {spotPriceValue}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Installments Price": {
@@ -65,7 +65,7 @@
 			"\t\t\"blockClass\": \"installments\",",
 			"\t\t\"message\": \"spotPriceValue: {spotPriceValue} installmentsNumber: {installmentsNumber} installmentValue: {installmentValue} installmentsTotalValue: {installmentsTotalValue} interestRate: {interestRate} paymentSystemName: {paymentSystemName}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Installments List Price": {
@@ -81,7 +81,7 @@
 			"//\t\t\"installmentsToShow\": \"\", // [1, n]",
 			"\t\t\"blockClass\": \"installments-list\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Installments List Item Price": {
@@ -96,7 +96,7 @@
 			"\t\t\"blockClass\": \"installments-list-item\",",
 			"\t\t\"message\": \"spotPriceValue: {spotPriceValue} installmentsNumber: {installmentsNumber} installmentValue: {installmentValue} installmentsTotalValue: {installmentsTotalValue} interestRate: {interestRate} paymentSystemName: {paymentSystemName}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Price Savings": {
@@ -114,7 +114,7 @@
 			"\t\t\"blockClass\": \"price-savings\",",
 			"\t\t\"message\": \"previousPriceValue: {previousPriceValue} newPriceValue: {newPriceValue} savingsValue: {savingsValue} savingsWithTax: {savingsWithTax} savingsPercentage: {savingsPercentage}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Price Spot Savings": {
@@ -130,7 +130,7 @@
 			"\t\t\"blockClass\": \"price-spot-savings\",",
 			"\t\t\"message\": \"previousPriceValue: {previousPriceValue} newSpotPriceValue: {newSpotPriceValue} spotPriceSavingsValue: {spotPriceSavingsValue} spotPriceSavingsWithTax: {spotPriceSavingsWithTax} spotPriceSavingsPercentage: {spotPriceSavingsPercentage}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product List Price Range": {
@@ -146,7 +146,7 @@
 			"\t\t\"blockClass\": \"list-price-range\",",
 			"\t\t\"message\": \"minPriceValue: {minPriceValue} maxPriceValue: {maxPriceValue} minPriceWithTax: {minPriceWithTax} maxPriceWithTax: {maxPriceWithTax} listPriceValue: {listPriceValue} listPriceWithTax: {listPriceWithTax}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Selling Price Range": {
@@ -162,7 +162,7 @@
 			"\t\t\"blockClass\": \"selling-price-range\",",
 			"\t\t\"message\": \"minPriceValue: {minPriceValue} maxPriceValue: {maxPriceValue} minPriceWithTax: {minPriceWithTax} maxPriceWithTax: {maxPriceWithTax} listPriceValue: {listPriceValue} listPriceWithTax: {listPriceWithTax}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Seller Name": {
@@ -178,7 +178,7 @@
 			"\t\t\"blockClass\": \"selling-seller-name\",",
 			"\t\t\"message\": \"sellerName: {sellerName}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	},
 	"Product Price Suspense": {
@@ -208,7 +208,7 @@
 			"\t\t\"blockClass\": \"list\",",
 			"\t\t\"message\": \"ListPrice: {listPriceValue} listPriceWithTax: {listPriceWithTax} listPriceWithUnitMultiplier: {listPriceWithUnitMultiplier} taxPercentage: {taxPercentage} taxValue: {taxValue} hasUnitMultiplier: {hasMeasurementUnit, select, true { / {hasUnitMultiplier, select, true {{unitMultiplier}} false {}} {measurementUnit}} false {}}\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }

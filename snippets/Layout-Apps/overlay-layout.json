@@ -43,7 +43,7 @@
 			"\t\t\"text\": \"\\n**Reach us at\\n**www.vtex.com.br\",",
 			"\t\t\"blockClass\": \"link-$1\"",
 			"\t}",
-			"}"
+			"},"
 		]
 	}
 }
