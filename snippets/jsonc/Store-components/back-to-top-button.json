@@ -1,7 +1,7 @@
 {
 	"Back To Top Button": {
 		"prefix": "backt",
-		"description": "VTEXIO - Defines a Back to top Button",
+		"description": "VTEXIO - Defines a Back to Top Button",
 		"scope": "jsonc",
 		"body": [
 			"\"back-to-top-button\": {",

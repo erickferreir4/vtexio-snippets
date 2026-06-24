@@ -1,5 +1,5 @@
 {
-	"Store Image": {
+	"List Context Image": {
 		"description": "VTEXIO - Defines a List Context Image",
 		"scope": "jsonc",
 		"prefix": "lisci",

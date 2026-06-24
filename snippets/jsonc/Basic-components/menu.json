@@ -1,5 +1,5 @@
 {
-	"Menu Chidlren": {
+	"Menu Children": {
 		"scope": "jsonc",
 		"description": "VTEXIO - Defines a Menu as Children",
 		"prefix": "menuc",

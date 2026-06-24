@@ -1,7 +1,7 @@
 {
 	"Overlay Layout": {
 		"prefix": "overl",
-		"description": "VTEXIO - Defines a Overlay Layout",
+		"description": "VTEXIO - Defines an Overlay Layout",
 		"scope": "jsonc",
 		"body": [
 			"\"overlay-trigger#${1:name}\": {",

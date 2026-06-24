@@ -58,7 +58,7 @@
 			"\t\t\"markers\": [",
 			"\t\t],",
 			"\t\t\"installmentsCriteria\": \"max-quantity\", // max-quantity | max-quantity-without-interest",
-			"//\t\t\"installmentOptionsFilter\": {,",
+			"//\t\t\"installmentOptionsFilter\": {",
 			"//\t\t\t\"paymentSystemName\": \"\",",
 			"//\t\t\t\"installmentsQuantity\": \"\"",
 			"//\t\t},",
@@ -175,16 +175,16 @@
 			"\t\t\"markers\": [",
 			"\t\t],",
 			"\t\t\"alwaysShow\": false,",
-			"\t\t\"blockClass\": \"selling-price-range\",",
+			"\t\t\"blockClass\": \"selling-seller-name\",",
 			"\t\t\"message\": \"sellerName: {sellerName}\"",
 			"\t}",
 			"}"
 		]
 	},
-	"Product Price Suspence": {
+	"Product Price Suspense": {
 		"prefix": "prpsu",
 		"scope": "jsonc",
-		"description": "VTEXIO - Defines a Product Price Suspence",
+		"description": "VTEXIO - Defines a Product Price Suspense",
 		"body": [
 			"\"product-price-suspense\": {",
 			"\t\"props\": {",

@@ -1,261 +1,98 @@
 # List of snippets
 
-
 ## Layout Apps
 
+```
+flexr    Flex Layout Row
+flexc    Flex Layout Column
+flexrc   Flex Col into Flex Row
+flexcr   Flex Row into Flex Col
 
-```
-flexr		-	flex layout row
-flexc		-	flex layout col
-flexrc		- 	flex layout col into row
-flexcr		-	flex layout row into col
-```
+condlp   Condition Layout Product Page
+condls   Condition Layout Search
+condlpb  Condition Layout Binding
 
-```
-condlp		-	condition layout product page
-condls		-	condition layout search page
-condlpb		-	condition layout product page bindingId
-```
+discl    Disclosure Layout
+disclg   Disclosure Layout Group
 
-```
-discl		-	disclosure layout
-disclg		-	disclosure layout group
-```
+resd     Responsive Layout Desktop
+restt    Responsive Layout Tablet
+restp    Responsive Layout Phone
 
+overl    Overlay Layout
+modl     Modal Layout
+stacl    Stack Layout
+slidl    Slider Layout
+slidlg   Slider Layout Group
+sticl    Sticky Layout
+tabl     Tab Layout
 ```
-resd		-	responsive layout desktop
-rest		-	responsive layout tablet
-resp		-	responsive layout phone
-```
-
-```
-overl		-	Overlay Layout
-```
-
-```
-modl		-	Modal Layout
-```
-
-```
-stacl		-	Stack Layout
-```
-
-```
-slidl		-	Slider Layout
-```
-
-```
-slidlg		-	Stack Layout Group
-```
-
-```
-sticl		-	Sticky Layout
-```
-
-```
-tabl		-	Tab Layout
-```
-
 
 ## Basic Components
 
 ```
-rich		-	rich text
+rich     Rich Text
+autoc    Autocomplete
+addc     Add To Cart Button
+banns    Banner Search
+brec     Breadcrumb
+brecs    Breadcrumb Search
+foot     Footer
+headr    Header
+login    Login
+loginc   Login Content
+menup    Menu Props
+menuc    Menu Children
+menus    Menu Submenu
+highlf   Product Highlights Filter
+highls   Product Highlights Simple
+highlw   Product Highlights Wrapper
+minic    Minicart v2
 ```
 
 ```
-autoc		-	autocomplete
+prsp     Product Selling Price
+prlp     Product List Price
+prspp    Product Spot Price
+prip     Product Installments Price
+prilp    Product Installments List Price
+prilip   Product Installments List Item Price
+prps     Product Price Savings
+prpsps   Product Price Spot Savings
+prlpr    Product List Price Range
+prspr    Product Selling Price Range
+prsn     Product Seller Name
+prpsu    Product Price Suspense
+
+prqy     Product Quantity
+prspeg   Product Specifications Group
+prsu     Product Summary Self
+prsubu   Product Summary Buy Button
+prsui    Product Summary Image
 ```
 
 ```
-addc		-	add to cart button
+searb    Search Bar
+searl    Search Result Layout
+filn     Filter Navigator
+stors    Store Search
+searlc   Search Result Custom
+lisci    Store Image
 ```
-
-```
-banns		-	Banner Search Result
-```
-
-```
-brec		-	Breadcrumb
-```
-
-```
-bres		-	Breadcrumb Search Page
-```
-
-```
-foot		-	Footer Layout
-```
-
-```
-headr		-	Header Layout
-```
-
-```
-login		-	Login Component
-```
-
-```
-loginc		-	Login Form
-```
-
-```
-menup		-	Menu Props
-```
-
-```
-menuc		-	Menu Children
-```
-
-```
-menus		-	Menu Submenu
-```
-
-```
-highlf		-	Product Highlights Filter
-```
-
-```
-highls		-	Product Highlights simple
-```
-
-```
-highlw		-	Product Highlights wrapper
-```
-
-```
-minic		-	Minicart v2
-```
-
-```
-prsp		-	Product Selling Price
-```
-```
-prlp		-	Product List Price
-```
-```
-prspp		-	Product Spot Price
-```
-```
-prip		-	Product Installments Price
-```
-```
-prilp		-	Product Installments List Price
-```
-```
-prilip		-	Product Installments List Item Price
-```
-```
-prps		-	Product Price Savings
-```
-```
-prpsps		-	Product Price Spot Savings
-```
-```
-prlpr		-	Product List Price Range
-```
-```
-prspr		-	Product Selling Price Range
-```
-```
-prsn		-	Product Seller Name
-```
-```
-prpsu		-	Product Price Suspence
-```
-
-```
-prqy		-	Product Quantity
-```
-
-```
-prspeg		-	Product Specifications Group
-```
-
-```
-prsu		-	Product Summary
-```
-
-```
-prsubu		-	Product Summary Buy Button
-```
-
-```
-prsui		-	Product Summary Image
-```
-
-```
-searb		-	Search Bar
-```
-
-```
-searl		-	Search Result Layout
-```
-
-```
-filn		-	Filter Navigator v3
-```
-
-```
-stors		-	Store Search Pages
-```
-
-```
-searcl		-	Search Result Custon
-```
-
-```
-lisci		-	Store Image
-```
-
 
 ## Store Components
 
 ```
-infc		-	Info Card
+infc     Info Card
+img      Image
+backt    Back To Top Button
+log      Logo
+notb     Notification Bar
+prbr     Product Brand
+prds     Product Description
+prims    Product Images
+prna     Product Name
+shar     Share
+ships    Shipping Simulator
+skus     Sku Selector
 ```
-
-```
-img		-	Image
-```
-
-```
-backt		-	Back to Top
-```
-
-```
-log		-	Logo
-```
-
-```
-notb		-	Notification Bar
-```
-
-```
-prbr		-	Product Brand
-```
-
-```
-prds		-	Product Description
-```
-
-```
-prims		-	Product Images
-```
-
-```
-prna		-	Product Name
-```
-
-```
-shar		-	Share
-```
-
-```
-ships		-	Shipping Simulator
-```
-
-```
-skus		-	Sku Selector
-```
-

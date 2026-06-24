@@ -1,7 +1,7 @@
 {
 	"Add To Cart Button": {
 		"prefix": "addc",
-		"description": "VTEXIO - Defines a Add Cart Button",
+		"description": "VTEXIO - Defines an Add to Cart Button",
 		"scope": "jsonc",
 		"body": [
 			"\"add-to-cart-button#${1:name}\": {",

@@ -1,7 +1,7 @@
 {
 	"Product Quantity": {
 		"prefix": "prqy",
-		"descriptionl": "VTEXIO - Defines a Product Quantity",
+		"description": "VTEXIO - Defines a Product Quantity",
 		"scope": "jsonc",
 		"body": [
 			"\"product-quantity\": {",

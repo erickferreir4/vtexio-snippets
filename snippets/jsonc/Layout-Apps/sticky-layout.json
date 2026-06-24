@@ -1,11 +1,11 @@
 {
 	"Sticky Layout": {
 		"prefix": "sticl",
-		"description": "VTEXIO - Defines a Stick Layout",
+		"description": "VTEXIO - Defines a Sticky Layout",
 		"scope": "jsonc",
 		"body": [
 			"\"sticky-layout#${1:name}\": {",
-			"\t\"title\": \"Stick Layout $1\",",
+			"\t\"title\": \"Sticky Layout $1\",",
 			"\t\"props\": {",
 			"\t\t\"blockClass\": \"$1\",",
 			"\t\t\"verticalSpacing\": 0,",
@@ -16,9 +16,9 @@
 			"\t]",
 			"},",
 			"\"rich-text#$1\": {",
-			"\t\"title\": \"Rich Text Stick $1\",",
+			"\t\"title\": \"Rich Text Sticky $1\",",
 			"\t\"props\": {",
-			"\t\t\"text\": \"stick text\"",
+			"\t\t\"text\": \"sticky text\"",
 			"\t}",
 			"}"
 		]

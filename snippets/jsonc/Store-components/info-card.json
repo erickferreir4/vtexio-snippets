@@ -1,7 +1,7 @@
 {
 	"Info Card": {
-		"description": "VTEXIO - Defines a Info Card",
-		"scope": "json",
+		"description": "VTEXIO - Defines an Info Card",
+		"scope": "jsonc",
 		"prefix": "infc",
 		"body": [
 			"\"info-card#${1:name}\": {",

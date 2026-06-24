@@ -1,5 +1,5 @@
 {
-	"Flex Layout column": {
+	"Flex Layout Column": {
 		"prefix": "flexc",
 		"body": [
 			"\"flex-layout.col#${1:name}\": {",
@@ -22,11 +22,10 @@
 			"\t}",
 			"}"
 		],
-		"description": "VTEXIO - Defines a Flex Layout column",
+		"description": "VTEXIO - Defines a Flex Layout Column",
 		"scope": "jsonc"
 	},
-
-	"Flex Layout row": {
+	"Flex Layout Row": {
 		"prefix": "flexr",
 		"body": [
 			"\"flex-layout.row#${1:name}\": {",
@@ -51,10 +50,9 @@
 			"\t}",
 			"}"
 		],
-		"description": "VTEXIO - Defines a Flex Layout row",
+		"description": "VTEXIO - Defines a Flex Layout Row",
 		"scope": "jsonc"
 	},
-
 	"Flex Col into Flex Row": {
 		"prefix": "flexrc",
 		"body": [
@@ -99,10 +97,9 @@
 			"\t}",
 			"}"
 		],
-		"description": "Defines a Flex Col into Flex Row block",
+		"description": "VTEXIO - Defines a Flex Col into Flex Row block",
 		"scope": "jsonc"
 	},
-
 	"Flex Row into Flex Col": {
 		"prefix": "flexcr",
 		"body": [
@@ -147,7 +144,7 @@
 			"\t}",
 			"}"
 		],
-		"description": "Defines a Flex Row into Flex Col block",
+		"description": "VTEXIO - Defines a Flex Row into Flex Col block",
 		"scope": "jsonc"
 	}
 }

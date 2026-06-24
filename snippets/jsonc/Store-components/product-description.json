@@ -1,7 +1,7 @@
 {
 	"Product Description": {
 		"scope": "jsonc",
-		"description": "VTEXIO - Defines a Produc Description",
+		"description": "VTEXIO - Defines a Product Description",
 		"prefix": "prds",
 		"body": [
 			"\"product-description\": {",

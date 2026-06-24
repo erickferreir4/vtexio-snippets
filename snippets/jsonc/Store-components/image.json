@@ -1,8 +1,8 @@
 {
 	"Image": {
 		"prefix": "img",
-		"description": "VTEXIO - Defines a Image",
-		"scope": "json",
+		"description": "VTEXIO - Defines an Image",
+		"scope": "jsonc",
 		"body": [
 			"\"image#${1:example}\": {",
 			"\t\"props\": {",
