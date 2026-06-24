@@ -21,6 +21,8 @@ CocInstall https://github.com/erickferreir4/vtexio-snippets@master
 
 For VS Code, copy the files from `snippets/jsonc/` into your `.vscode/` directory.
 
+> **Note:** This package is not yet available as a plugin in the VS Code Marketplace.
+
 ## Usage
 
 Each snippet expands to a block configuration with `$1`, `${1:name}` placeholders. Type the prefix and press Tab.
