@@ -1,9 +1,5 @@
 {
 	"name": "vtexio-snippets",
-	"displayName": "VTEX IO Snippets",
-	"description": "Snippets for VTEX IO store blocks",
-	"version": "0.0.1",
-	"publisher": "vtexio",
 	"engines": {
 		"vscode": "^1.11.0"
 	},
